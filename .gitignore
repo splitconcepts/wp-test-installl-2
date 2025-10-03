@@ -2,32 +2,26 @@
 # ignore all files starting with .
 !.gitignore
 !.gitattributes
-
 # ignore all files that start with ~
 ~*
-
 # ignore old or backed up files
 *.old
 *.bak
-
 # ignore OS generated files
 ehthumbs.db
 Thumbs.db
 .DS_Store
-
 # ignore Editor files
 *.sublime-project
 *.sublime-workspace
 *.komodoproject
 local-adminer-*
 local-xdebuginfo.php
-
 # ignore log files and databases
 error_log
 *.log
 *.sql
 *.sqlite
-
 # ignore compiled files
 *.com
 *.class
@@ -35,7 +29,6 @@ error_log
 *.exe
 *.o
 *.so
-
 # ignore packaged files
 *.7z
 *.dmg
@@ -45,10 +38,8 @@ error_log
 *.rar
 *.tar
 *.zip
-
 # ignore everything in the uploads directory:
 wp-content/uploads/
-
 # ignore additional wp-content items
 wp-content/upgrade/
 wp-content/updraft/
@@ -59,24 +50,22 @@ wp-content/mu-plugins/split-*
 wp-content/mu-plugins/wp-migrate-*
 wp-content/mu-plugins/mode-wp-page-cache-loader.php
 wp-content/plugins/admin_ips.txt
-
 # ignore drop ins
 wp-content/db.php
 wp-content/advanced-cache.php
 wp-content/object-cache.php
-
 # ignore these plugins from the core
 wp-content/plugins/stop-emails
 wp-content/plugins/disable-emails
-
 # ignore specific themes
 wp-content/themes/twenty*
-
 # ignore vendor/dependency directories/files
 node_modules/
 /vendor/
 *.code-workspace
 web.config
-
 # ignore wp-config
 wp-config.php
+/wp-content/
+/wp-admin/
+/wp-includes/
