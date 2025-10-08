@@ -1,5 +1,5 @@
 <?php
-/**
+/** modified
  * The base configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the installation.
@@ -95,7 +95,7 @@ define( 'WP_DEBUG', false );
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+    define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Sets up WordPress vars and included files. */
