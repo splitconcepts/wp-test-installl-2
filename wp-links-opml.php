@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
-/** both modified remote
-=======
-/** both modified local
->>>>>>> a224b2e... Merged changes from https://wptesting.splitconcepts.biz on 10/8/2025
+/**
  * Outputs the OPML XML format for getting the links defined in the link
  * administration. This can be used to export links from one blog over to
  * another. Links aren't exported by the WordPress export, so this file handles
