@@ -82,6 +82,5 @@ web.config
 wp-config.php
 
 /wp-content/
-/wp-admin/
 
 /test5.php
